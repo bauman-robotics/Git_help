@@ -1,3 +1,5 @@
+
+111
  
 Git
  создали папку
@@ -113,3 +115,5 @@ git push --set-upstream vga master
 git push vga
  
 ---
+
+git remote add vga https://github.com/sm7telega/FPGA_VGA.git

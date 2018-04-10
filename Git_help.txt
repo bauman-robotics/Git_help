@@ -1,0 +1,115 @@
+ 
+Git
+ создали папку
+ зашли в неё
+ git init
+ git clone https://github.com/MIPSfpga/pre-mipsfpga.git  (ссылка)
+
+ Получили копию проекта
+----
+ создали папку
+ зашли в неё
+ git init
+
+ положили туда проект 
+
+ git add --all
+ 
+ --------
+git add remote vga <link>
+git remote add vga https://github.com/sm7telega/FPGA_VGA.git
+ где vga - имя
+
+проверка:
+git remote -v
+-----
+git push --set-upstream vga master
+
+git push vga
+
+-----
+
+создать папку.
+git init
+git clone -- https://github.com/sm7telega/FPGA_VGA.git
+
+-----
+
+
+Затем необходимо удалить файл. Для этого есть два варианта, можно воспользоваться любым:
+
+    можно удалить Git-командой:
+
+    git rm <путь_к_удалённому_файлу>
+
+    либо просто удалить файл с диска (можете просто через проводник) и добавить изменение в индекс следующей командой:
+
+    git add <путь_к_удалённому_файлу>
+
+
+git show
+
+git log
+
+sm7-telega@yandex.ru
+xxxxx
+
+github.com/sm7telega
+xxxxx
+
+https://github.com/sm7telega/FPGA_VGA.git
+
+
+git remote add vga https://github.com/sm7telega/FPGA_VGA.git
+
+Arhkan  
+
+https://github.com/sm7telega/FPGA_VGA.git
+
+git push --set-upstream vga master
+пользователь: sm7telega
+пароль: xxxxxx
+
+
+--
+git fetch https://github.com/sm7telega/FPGA_VGA.git
+
+----------------
+----------------
+1. Создали репозиторий на гите:
+
+	https://github.com/sm7telega/temp_repo.git
+
+2. Setting 
+	Colaborator
+		Search by username, full name or email address
+    
+    Добавить пользователей.
+
+3. Дождаться, пока пользователи подтвердят приглашение в проект через почту.
+
+4. Со стороны пользователей:
+
+ создали папку
+ зашли в неё
+ git init
+  // git clone https://github.com/MIPSfpga/pre-mipsfpga.git  (ссылка)    
+
+положили туда проект 
+
+ git add --all
+ 
+ --------
+git add remote vga <link>
+//git remote add vga https://github.com/sm7telega/FPGA_VGA.git
+
+где vga - имя
+
+проверка:
+git remote -v
+-----
+git push --set-upstream vga master
+
+git push vga
+ 
+---

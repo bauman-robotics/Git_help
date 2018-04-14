@@ -1,7 +1,7 @@
 ﻿
 
 Git
- создали папку
+ соdздали папку
  зашли в неё
  git init
  git clone https://github.com/MIPSfpga/pre-mipsfpga.git  (ссылка)
